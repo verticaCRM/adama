@@ -1,0 +1,12 @@
+
+
+2015-08-25 -- version 1.2
+--------------------------------
+1) Fixed the issues with Auto theme update.
+2) Backup file demo.xml issue is fixed.
+
+
+2015-08-24 -- version 1.1
+--------------------------------
+1) Added the option to enable RTL in Theme Options
+2) Fixed some major issues

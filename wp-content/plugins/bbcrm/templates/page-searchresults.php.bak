@@ -1,0 +1,235 @@
+<?php
+/*
+Template Name: Search Results
+*/
+session_start();
+//ini_set('display_errors',true);
+//error_reporting(E_ALL);
+
+
+foreach($_REQUEST as $k=>$v){
+	if(''==$v){
+		unset($_REQUEST[$k]);
+	}
+}
+
+
+if(isset($_REQUEST['c_name_generic_c'])&& is_numeric($_REQUEST["c_name_generic_c"]) || isset($_REQUEST["id"]) && !empty($_REQUEST["id"])){
+
+	$qy = $_REQUEST["id"]; 
+	$_SESSION["listingid"]=$qy;
+	
+if(is_numeric($_REQUEST["c_name_generic_c"])){
+$qy = $_REQUEST["c_name_generic_c"];
+}	
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&id='.$qy));
+$idresults = json_decode($json);
+
+if(empty($idresults[0]->c_listing_frontend_url)){
+header("Location:/listing/");
+exit;
+}else{
+header("Location:".$idresults[0]->c_listing_frontend_url,false,307);
+exit;
+}	
+	
+	
+
+}
+
+$qy = $_REQUEST["c_name_generic_c"];
+if(isset($_REQUEST["find"]) && !empty($_REQUEST["find"])){
+	$qy = $_REQUEST["find"]; 
+}
+if(isset($_REQUEST["c_listing_region_c"]) && !empty($_REQUEST["c_listing_region_c"])){
+	$qy = $_REQUEST["c_listing_region_c"]; 
+}
+if(isset($_REQUEST["c_listing_town_c"]) && !empty($_REQUEST["c_listing_town_c"])){
+	$qy = $_REQUEST["c_listing_town_c"]; 
+}
+if(isset($_REQUEST["broker"]) && !empty($_REQUEST["broker"])){
+	$qy = urlencode($_REQUEST["broker"]); 
+}
+if(isset($_REQUEST["c_businesscategories"]) && !empty($_REQUEST["c_businesscategories"])){
+	$qy = $_REQUEST["c_businesscategories"]; 
+}
+
+//echo $qy;
+if(!empty($qy)){
+$busca3results = null;
+$buscat4results = null;
+if(isset($_REQUEST["find"]) || isset($_REQUEST["c_businesscategories"])){
+	$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_businesscategories=%25'.urlencode($qy).'%25'));
+	$buscat3result = json_decode($json);
+	foreach($buscat3result AS $idx=>$res){
+		$buscat3results[] = $res;
+	}
+
+	$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_listing_businesscat_c=%25'.$qy.'%25'));
+	$buscat4result = json_decode($json);
+	foreach($buscat4result AS $idx=>$res){
+		//$buscat4results[] = $res;
+	}
+}
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_name_generic_c=%25'.urlencode($qy).'%25'));
+$genresults = json_decode($json);
+
+//echo $json;
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&description=%25'.urlencode($qy).'%25'));
+$descresults = json_decode($json);
+
+//echo "1".$json;
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_listing_region_c=%25'.urlencode($qy).'%25'));
+$regionresults = json_decode($json);
+
+//echo "2".$json;
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_listing_town_c=%25'.urlencode($qy).'%25'));
+$countyresults = json_decode($json);
+
+//echo "3".$json;
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_assigned_user_id=%25'.$qy.'%25'));
+$brokerresults = json_decode($json);
+
+//echo "4".$json;
+
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_name_dba_c=%25'.urlencode($qy).'%25'));
+$dbaresults = json_decode($json);
+
+//echo $json;
+
+$params=http_build_query(array("_tags"=>$qy,"_tagOr"=>"1"));
+$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&_limit=20&'.$params));
+$tagresults = json_decode($json);
+
+}
+
+if(isset($_REQUEST["c_ownerscashflow"])){
+	$params = explode("|",$_REQUEST["c_ownerscashflow"]);
+	$json = x2apicall(array('_class'=>'Clistings/by:c_sales_stage=Active;c_ownerscashflow='.urlencode('>=').$params[0].';c_ownerscashflow='.urlencode('<=').$params[1].'.json'));
+
+	$cashflowresults = array();
+//echo 	'Clistings/by:c_sales_stage=Active;c_ownerscashflow='.urlencode('>=').$params[0].';c_ownerscashflow='.urlencode('<=').$params[1].'.json';
+
+	$cashflowresult = json_decode($json);
+//print_r($cashflowresult);
+	if($cashflowresult->directUris){
+		foreach($cashflowresult->directUris as $idx=>$uri){
+				$json = x2apicall(array("_url"=>$uri));
+				$cashflowresults[] = json_decode($json);
+		}	
+	}
+	
+}
+
+if(isset($_REQUEST["c_listing_askingprice_c"])){
+	$params = explode("|",$_REQUEST["c_listing_askingprice_c"]);
+	$json = x2apicall(array('_class'=>'Clistings/by:c_sales_stage=Active;c_listing_askingprice_c>='.$params[0].';c_listing_askingprice_c<'.$params[1].'.json'));
+	$askingpriceresults = json_decode($json);
+}
+
+if(isset($_REQUEST["c_listing_downpayment_c"])){
+	$params = explode("|",$_REQUEST["c_listing_downpayment_c"]);
+	$json = x2apicall(array('_class'=>'Clistings/by:c_sales_stage=Active;c_listing_downpayment_c>='.$params[0].';c_listing_downpayment_c<'.$params[1].'.json'));
+	$downpaymentresults = json_decode($json);
+}
+
+if(isset($_REQUEST["c_businesscategories"]) && !empty($_REQUEST["c_businesscategories"])){
+$buscatresults = null;
+$buscat2results = null;
+	foreach ($_REQUEST["c_businesscategories"] AS $idx=>$cat){
+		$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_listing_businesscat_c=%25'.urlencode($cat).'%25'));
+		$buscatresult = json_decode($json);
+		foreach($buscatresult AS $idx=>$res){
+			$buscatresults[] = $res;
+		}
+	
+		$json = x2apicall(array('_class'=>'Clistings?_partial=1&_escape=0&c_sales_stage=Active&c_businesscategories=%25'.urlencode($cat).'%25'));
+		$buscat2result = json_decode($json);
+		foreach($buscat2result AS $idx=>$res){
+			$buscat2results[] = $res;
+		}
+	}
+}
+
+$results = (object) array_merge((array) $idresults,(array) $genresults, (array) $tagresults, (array) $descresults, (array) $regionresults, (array) $countyresults, (array) $dbaresults, (array) $brokerresults, (array) $buscatresults, (array) $buscat2results,(array) $buscat3results,(array) $buscat4results,(array) $downpaymentresults,(array) $askingpriceresults,(array) $cashflowresults);
+
+//print_r($results);
+
+
+
+//get_template_part('template','top');
+get_header();
+
+?>
+<section id="content" data="property">
+	<div class="portfolio_group">
+	<div id="business_container" style="vertical-align:top">
+<?
+
+if(count((array)$results) > 0 && $results->status != "404"){
+	$listingids = array();
+	
+	foreach ($results as $searchlisting){
+	
+	if(!in_array($searchlisting->id,$listingids)){
+		$listingids[]= $searchlisting->id;
+
+		if(!empty($searchlisting->c_businesscategories)){
+		$categories = substr($searchlisting->c_businesscategories,1,-1);
+		$categories = explode(',',str_replace('"', '', $categories));
+		$cats = '';
+		foreach($categories as $cat){
+			$cats .='<a href="?find='.urlencode(stripslashes($cat)).'">'.stripslashes($cat).'</a> ';
+		}
+		}
+
+		$html .= "<div class='searchresult'><h3><a href=\"/listing/". sanitize_title($searchlisting->c_name_generic_c) ."\" class=\"listing_link\" data-id=\"". $searchlisting->id ."\">".$searchlisting->c_name_generic_c."</a></h3>";
+		$html .= "<div>".$searchlisting->description."</div>";
+		$html .= "<div>".__("State: ","bbcrm").$searchlisting->c_listing_region_c."</div>";
+		$html .= "<div>".__("Owner's Cash Flow: ",'bbcrm').$searchlisting->c_currency_id.number_format($searchlisting->c_ownerscashflow)."</div>";
+		$html .= "<div>".__("Asking: ",'bbcrm').$searchlisting->c_currency_id.number_format($searchlisting->c_listing_askingprice_c)."</div>";
+		$html .= "<div>".$cats."</div>";
+		$html .= "<div>".$searchlisting->c_listing_businesscat_c."</div>";
+		$html .= "</div>";
+if(is_user_logged_in() ){
+		$html .= '<form action="/listing/'.sanitize_title($searchlisting->c_name_generic_c).'" method=post><input type=hidden name="action" value="add_to_portfolio" /><input type=hidden name="id" value="'. $searchlisting->id.'" /><input type=submit style="display:inline" value="'. __('Add to my portfolio','bbcrm').' &#10010;" class="portfolio_action_button portfolio-add"  /></form>';
+		}
+	}
+	}
+}else{
+	$qy = (empty($qy))?"your search":'"'.$qy.'"';
+	$html .= "<h2>No results were found for ".$qy."</h2>";
+	$html .= "<p>Please check your spelling or try a search with different parameters.</p>";
+	$html .= do_shortcode('[featuredsearch]');
+}
+
+//print_r($listingids);
+
+if(!empty($listingids)){
+echo '<h2>'.get_the_title().'</h2>';
+echo __("Your search for ",'bbcrm');
+if(is_array($qy)){
+	echo join(",",$qy);
+}else {
+	echo $qy;
+}
+_e(" returned ",'bbcrm');
+echo count((array)$listingids);
+echo (count((array)$listingids)===1)?__(' result.','bbcrm'):__(' results.','bbcrm');
+}	
+
+echo $html;
+
+//get_template_part("home","search");
+?>
+<?php dynamic_sidebar( "property-unregistered" ); ?>
+	</div>
+	</div>
+</section>
+
+<?php get_footer(); ?>

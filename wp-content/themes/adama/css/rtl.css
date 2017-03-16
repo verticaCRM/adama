@@ -1,0 +1,41 @@
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+div[class^=col-md],div[class^=col-sm], div[class^=col-xs],
+.top-bar .left-bar-side, header .logo, header nav li a, .nav-post .img-nav,.home-3 .bnr-property .price,
+.home-3 .bnr-property .tag,.fleft, .info_content .description .price-bg, .property-slide .pri-info .auther img,
+.property-slide .pri-info .auther h6, .properties .home-in li, .properties li .price-bg, .properties-small .img,
+.properties-small .text-po, .properties-small .text-po .locat p span, #testimonials .avatr, .gallery .owl-nav i, 
+.parthner .owl-nav i, .table-prics li, .blog .post-admin img, .single-post blockquote:before, .pricing .p-details a,
+.properti-detsil .home-in li, .properti-detsil .sale-tag, .info-property.agents-info .agent-info li, .properti-detsil .socil-action li,
+.properti-detsil .side-bar .img-post, .properti-detsil .socil-action li i, .widget .tagcloud > a, .properti-detsil .tags li a,
+.properti-detsil .flicker-post li, .blog-side-bar .cate-side li .img-side, .blog-side-bar ul.wid-in li:nth-child(2),
+.regi-sec li .btn, .register .regi-tag, .drop-cobs p span, .skills-bar .progress-bar, #tabs .nav-tabs > li a, 
+footer .loc-info p i, footer .tweet li:before, footer .img-post, .social_icons li {
+	float: right;
+}
+
+
+.top-bar .right-bar-side,header nav, .sub-nav-co,.nav-post .nav-text, .bootstrap-select.btn-group .btn .caret:before,
+.sel-style:before, .fright, .info_content .description .priceRow i, .properties .detail-sec .share-p i, .link-up,
+#accordion .panel-default > .panel-heading .panel-title a:before, .pricing .p-details a:before, .info-property.agents-info .social_icons,
+.properti-detsil .side-bar .text-post, .properti-detsil .side-bar.text-post, .cou-type .calen, .blog-side-bar .cate-sim li:before,
+.blog-side-bar ul.wid-in li:nth-child(1), .blog-side-bar ul.wid-in li:nth-child(2):before, .blog-side-bar .search button, 
+.regi-sec li .forget, .regi-sec li .forget a, .regi-sec .checkbox label, .contact .error:before, .alert span,
+.skills-bar .progress-bar span, footer .text-post, footer button {
+	float: left;
+}
+
+.find-sec label, .home-3 .bnr-property .tag, .mobile-app h3, .properti-detsil .side-bar h5, .com-feature, #contact_form li,
+.skills-bar .progress-bar {
+	text-align: right;
+}
+
+.sub-banner .breadcrumb, .sub-banner .breadcrumb li a, body .text-right {
+	text-align: left;
+}
+
+

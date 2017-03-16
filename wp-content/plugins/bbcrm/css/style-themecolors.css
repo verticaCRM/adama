@@ -1,0 +1,68 @@
+.theme-color1-dk{ color:#63491f } /* dark brown */
+.theme-color1-lt{ color:#e8bb74 }
+.theme-color2-dk{ color:#2d7b22 } /* dark green */
+.theme-color2-lt{ color:#96e08b } 
+.theme-background1-dk{ background-color:#63491f }
+.theme-background1-lt{ background-color:#e8bb74 }
+.theme-background2-dk{ background-color:#2d7b22 }
+.theme-background2-lt{ background-color:#96e08b }
+.theme-border1-dk{ border:#63491f }
+.theme-border1-lt{ border:#e8bb74 }
+.theme-border2-dk{ border:#2d7b22 }
+.theme-border2-lt{ border:#96e08b }
+
+.theme-color1-dk a, .theme-color1-dk i { color:#63491f !important;}
+.theme-color1-lt a, .theme-color1-lt i { color:#e8bb74 !important}
+.theme-color2-dk a, .theme-color2-dk i { color:#2d7b22 !important}
+.theme-color2-lt a, .theme-color2-lt i { color:#96e08b !important}
+
+.theme-background1-dk a:hover, .theme-background1-dk i:hover { background-color:#63491f !important;}
+.theme-background1-lt a:hover, .theme-background1-lt i:hover { background-color:#e8bb74 !important}
+.theme-background2-dk a:hover, .theme-background2-dk i:hover { background-color:#2d7b22 !important}
+.theme-background2-lt a:hover, .theme-background2-lt i:hover { background-color:#96e08b !important}
+a:hover { color: #96e08b; }
+a { color: #2d7b22; }
+
+.top-bar {background-repeat:no-repeat; background-color:#2d7b22;}
+.sub-banner .breadcrumb {background: #63491f;}
+.featured_listing{
+vertical-align:top;margin-right: 12px;  width: 460px;   border: 1px solid #2d7b22 ;    margin-bottom: 18px;    display: inline-block;
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 88%, #2d7b22 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 88%,#2d7b22 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 88%,#2d7b22 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2d7b22',GradientType=0 ); /* IE6-9 */
+max-width: 100%;
+}
+
+.sub-banner.otherpage {
+	background: none !important;
+}
+
+.otherpage .overlay {
+	padding-top: 0 !important;
+}
+
+.sub-banner.frontpage {
+    background: url(images/sub-bnr-bg.jpg) top center fixed no-repeat;
+    position: relative;
+    margin-top: -5px;
+    background-size: cover text-align: center;
+    text-align: center;
+    height: 527px;
+}
+#business_container{
+	margin-top: 40px;
+}
+@media(max-width:530px) {
+	.featured_listing {
+		text-align: center;
+	}
+	#thumbdiv{
+		padding-top: 5px;
+	}
+	.wpp_overview_data{
+		padding-left: 0px !important;
+	}
+
+}

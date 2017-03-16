@@ -1,0 +1,44 @@
+/*
+Theme Name: BBCRM Integration Plugin
+Author: BusinessBrokersCRM
+*/
+
+
+@import url('../css/style.css');
+
+.blog {padding:0;background-color:initial;}
+.blog .sticky {padding:0 !important;margin:0;background-color:#fff !important}
+.blog.row.m0.single_post , .contentRowPad{padding:0}
+
+header:before { background: rgba(255,255,255,0);}
+header nav .ownmenu {min-height:80px;max-height:85px}
+header .logo {margin:0;padding:0}
+ul.left-bar-side {line-height:10px}
+.logo img {width:260px !important; height:auto; padding-top: 14px !important;}
+
+.sub-banner .overlay {padding-top:220px;}
+.sub-banner h1 {margin-bottom:220px;}
+
+.sub-banner .breadcrumb {display:block !important;}
+
+.top-bar .left-bar-side p{line-height:initial}
+header nav > ul > li:hover {background:none}
+header nav li {margin-top:8px;}
+
+header nav > ul > li.active, header nav > ul > li:hover {
+    background:none!important;
+}
+.all-properties, .home_featured, .wpp_row_view{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#form1 label{width:160px!important;display:inline-block}
+
+
+ul.menu {text-align:center}
+ul.menu li {display:inline-block;font-size:1.2em;padding:16px;}
+ul.menu li a {color:#fff;}
+
+.formerr {font-weight:700;color:#9a0000;padding:2px;background-color:#f9efef}
+.portfoliobutton{padding:7px;margin:0;line-height:initial;font-size:13px;border:0;color:#fff}

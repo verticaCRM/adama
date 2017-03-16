@@ -1,0 +1,1127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Realtor v1.0.0\n"
+"POT-Creation-Date: 2015-08-19 14:57+0500\n"
+"PO-Revision-Date: 2015-08-19 14:57+0500\n"
+"Last-Translator: Shahbaz Ahmed <support@wow-themes.com>\n"
+"Language-Team: Wow Themes <support@wow-themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:15 404.php:17 404.php:28
+msgid "404"
+msgstr ""
+
+#: 404.php:28
+msgid "page not found"
+msgstr ""
+
+#: 404.php:29
+msgid "Page doesn’t exist or other error occured. Go to our "
+msgstr ""
+
+#: 404.php:29
+msgid "HOMEPAGE"
+msgstr ""
+
+#: 404.php:29
+msgid " or go back to "
+msgstr ""
+
+#: 404.php:29
+msgid "PREVIOUS PAGE"
+msgstr ""
+
+#: archive-sh_property.php:45 includes/modules/shortcodes/property2.php:35
+#: searches-sh_property.php:37 single-sh_property.php:104
+msgid "FOR SALE"
+msgstr ""
+
+#: archive-sh_property.php:48 includes/modules/shortcodes/property2.php:38
+#: searches-sh_property.php:40 single-sh_property.php:107
+msgid "FOR RENT"
+msgstr ""
+
+#: archive-sh_property.php:56 includes/modules/shortcodes/map.php:35
+#: includes/modules/shortcodes/property2.php:47
+#: includes/modules/shortcodes/property3.php:40
+#: includes/modules/shortcodes/property3.php:49 searches-sh_property.php:48
+#: single-sh_property.php:278 single-sh_property.php:287
+msgid "more details"
+msgstr ""
+
+#: blog.php:29
+#, php-format
+msgid "%s Like"
+msgstr ""
+
+#: blog.php:33
+#, php-format
+msgid "%s View"
+msgstr ""
+
+#: blog.php:39
+msgid "Read more about "
+msgstr ""
+
+#: blog.php:39 sidebar.php:18
+msgid "Read More"
+msgstr ""
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:38
+msgid "Top Left Menu"
+msgstr ""
+
+#: functions.php:39
+msgid "Top Right Menu"
+msgstr ""
+
+#: functions.php:40
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:41
+msgid "Main Menu 2"
+msgstr ""
+
+#: functions.php:42
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:81
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:83 functions.php:114
+msgid "Widgets in this area will be shown on the right-hand side."
+msgstr ""
+
+#: functions.php:91
+msgid "Footer Top Sidebar"
+msgstr ""
+
+#: functions.php:93 functions.php:104
+msgid "Widgets in this area will be shown in Footer Area."
+msgstr ""
+
+#: functions.php:102
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:112
+msgid "Blog Listing"
+msgstr ""
+
+#: header-two.php:61 includes/modules/header/header-style2.php:13
+msgid "Navigation"
+msgstr ""
+
+#: header-two.php:205 includes/library/functions.php:29
+#: includes/library/widgets.php:192 includes/library/widgets.php:287
+#: includes/library/widgets.php:370
+#: includes/modules/header/header-style1.php:68
+msgid "All Categories"
+msgstr ""
+
+#: header-two.php:229 includes/modules/header/header-style1.php:93
+msgid "Wishlist "
+msgstr ""
+
+#: header-two.php:232 includes/modules/header/header-style1.php:97
+msgid "Compare "
+msgstr ""
+
+#: header.php:47
+msgid "Call Us Now : "
+msgstr ""
+
+#: header.php:61
+msgid " Login / Register "
+msgstr ""
+
+#: includes/library/functions.php:53
+msgid "No Sidebar"
+msgstr ""
+
+#: includes/library/functions.php:145
+msgid "Home"
+msgstr ""
+
+#: includes/library/functions.php:193 includes/library/functions.php:194
+#: includes/library/functions.php:195 includes/library/functions.php:196
+msgid "Archive for "
+msgstr ""
+
+#: includes/library/functions.php:197
+msgid "Search Results for "
+msgstr ""
+
+#: includes/library/functions.php:198
+msgid "404 - Not Found"
+msgstr ""
+
+#: includes/library/functions.php:216
+msgid "Search results for &ldquo;"
+msgstr ""
+
+#: includes/library/functions.php:243
+msgid "You must agreed the policy"
+msgstr ""
+
+#: includes/library/functions.php:253
+msgid "Registration Successful - An email is sent"
+msgstr ""
+
+#: includes/library/functions.php:257
+msgid "Username or email already exists.  Password inherited."
+msgstr ""
+
+#: includes/library/functions.php:283
+msgid "Reply"
+msgstr ""
+
+#: includes/library/functions.php:314
+msgid "NAME"
+msgstr ""
+
+#: includes/library/functions.php:315
+#: includes/modules/shortcodes/register_form.php:17
+msgid "EMAIL"
+msgstr ""
+
+#: includes/library/functions.php:316
+msgid "SUBJECT"
+msgstr ""
+
+#: includes/library/functions.php:318
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: includes/library/functions.php:329
+msgid "MESSAGE"
+msgstr ""
+
+#: includes/library/functions.php:330
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: includes/library/functions.php:331
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: includes/library/functions.php:332
+msgid "Your email address will not be published."
+msgstr ""
+
+#: includes/library/functions.php:337
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: includes/library/functions.php:338
+msgid "Cancel reply"
+msgstr ""
+
+#: includes/library/functions.php:339
+msgid "Add Comment "
+msgstr ""
+
+#: includes/library/functions.php:635
+msgid "Poor"
+msgstr ""
+
+#: includes/library/functions.php:635
+msgid "Satisfactory"
+msgstr ""
+
+#: includes/library/functions.php:635
+msgid "Good"
+msgstr ""
+
+#: includes/library/functions.php:635
+msgid "Better"
+msgstr ""
+
+#: includes/library/functions.php:635
+msgid "Awesome"
+msgstr ""
+
+#: includes/library/functions.php:657
+#, php-format
+msgid "Average Rating %s"
+msgstr ""
+
+#: includes/library/functions.php:697
+msgid "Loading..."
+msgstr ""
+
+#: includes/library/widgets.php:8
+msgid "Realtor Search"
+msgstr ""
+
+#: includes/library/widgets.php:33
+msgid "City"
+msgstr ""
+
+#: includes/library/widgets.php:34 includes/modules/shortcodes/search.php:21
+msgid "New York"
+msgstr ""
+
+#: includes/library/widgets.php:35 includes/modules/shortcodes/search.php:22
+msgid "Sydany"
+msgstr ""
+
+#: includes/library/widgets.php:36 includes/modules/shortcodes/search.php:23
+msgid "Relish"
+msgstr ""
+
+#: includes/library/widgets.php:42 includes/modules/shortcodes/search.php:29
+#: includes/modules/shortcodes/search.php:30
+msgid "Location"
+msgstr ""
+
+#: includes/library/widgets.php:48 includes/modules/shortcodes/search.php:36
+msgid "Property Status"
+msgstr ""
+
+#: includes/library/widgets.php:49 includes/modules/shortcodes/search.php:38
+msgid "Appartment"
+msgstr ""
+
+#: includes/library/widgets.php:50 includes/library/widgets.php:53
+#: includes/modules/shortcodes/search.php:39
+#: includes/modules/shortcodes/search.php:42
+msgid "House"
+msgstr ""
+
+#: includes/library/widgets.php:51 includes/modules/shortcodes/search.php:40
+msgid "Villa"
+msgstr ""
+
+#: includes/library/widgets.php:52 includes/modules/shortcodes/search.php:41
+msgid "Plaza"
+msgstr ""
+
+#: includes/library/widgets.php:54 includes/modules/shortcodes/search.php:43
+msgid "Factory"
+msgstr ""
+
+#: includes/library/widgets.php:61 includes/modules/shortcodes/search.php:49
+msgid "Property Type"
+msgstr ""
+
+#: includes/library/widgets.php:62 includes/modules/shortcodes/search.php:51
+msgid "Choose"
+msgstr ""
+
+#: includes/library/widgets.php:63 includes/modules/shortcodes/search.php:52
+msgid "Rent"
+msgstr ""
+
+#: includes/library/widgets.php:64 includes/modules/shortcodes/search.php:53
+msgid "Sale"
+msgstr ""
+
+#: includes/library/widgets.php:71 includes/modules/shortcodes/search.php:59
+msgid "No of Bedrooms"
+msgstr ""
+
+#: includes/library/widgets.php:72 includes/library/widgets.php:84
+#: includes/modules/shortcodes/search.php:61
+#: includes/modules/shortcodes/search.php:78
+msgid "1"
+msgstr ""
+
+#: includes/library/widgets.php:73 includes/library/widgets.php:85
+#: includes/modules/shortcodes/search.php:62
+#: includes/modules/shortcodes/search.php:79
+msgid "2"
+msgstr ""
+
+#: includes/library/widgets.php:74 includes/library/widgets.php:86
+#: includes/modules/shortcodes/search.php:63
+#: includes/modules/shortcodes/search.php:80
+msgid "3"
+msgstr ""
+
+#: includes/library/widgets.php:75 includes/library/widgets.php:87
+#: includes/modules/shortcodes/search.php:64
+#: includes/modules/shortcodes/search.php:81
+msgid "4"
+msgstr ""
+
+#: includes/library/widgets.php:76 includes/library/widgets.php:88
+#: includes/modules/shortcodes/search.php:65
+#: includes/modules/shortcodes/search.php:82
+msgid "5"
+msgstr ""
+
+#: includes/library/widgets.php:83 includes/modules/shortcodes/search.php:76
+msgid "No of Bathrooms"
+msgstr ""
+
+#: includes/library/widgets.php:93
+msgid "Minimum Price"
+msgstr ""
+
+#: includes/library/widgets.php:98
+msgid "Maximum Price"
+msgstr ""
+
+#: includes/library/widgets.php:130 includes/library/widgets.php:182
+#: includes/library/widgets.php:273 includes/library/widgets.php:356
+msgid "Title: "
+msgstr ""
+
+#: includes/library/widgets.php:141
+msgid "Realtor Blog Recent Posts "
+msgstr ""
+
+#: includes/library/widgets.php:141
+msgid "Realtor  New items with images"
+msgstr ""
+
+#: includes/library/widgets.php:177
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/library/widgets.php:186 includes/library/widgets.php:279
+#: includes/library/widgets.php:362
+msgid "No. of Posts:"
+msgstr ""
+
+#: includes/library/widgets.php:191 includes/library/widgets.php:285
+#: includes/library/widgets.php:368 single-sh_portfolio.php:328
+msgid "Category"
+msgstr ""
+
+#: includes/library/widgets.php:232
+msgid "Realtor Featured Properties"
+msgstr ""
+
+#: includes/library/widgets.php:268
+msgid "Featured Properties"
+msgstr ""
+
+#: includes/library/widgets.php:315
+msgid "Realtor Categories"
+msgstr ""
+
+#: includes/library/widgets.php:315
+msgid "Categories"
+msgstr ""
+
+#: includes/library/widgets.php:351
+msgid "Recent Properties"
+msgstr ""
+
+#: includes/library/widgets.php:403
+msgid "Realtor Social Media"
+msgstr ""
+
+#: includes/library/widgets.php:454 includes/library/widgets.php:544
+#: includes/library/widgets.php:606 includes/library/widgets.php:681
+msgid "Title:"
+msgstr ""
+
+#: includes/library/widgets.php:458
+msgid "Facebook:"
+msgstr ""
+
+#: includes/library/widgets.php:462
+msgid "Twitter:"
+msgstr ""
+
+#: includes/library/widgets.php:466
+msgid "Google Plus:"
+msgstr ""
+
+#: includes/library/widgets.php:470
+msgid "Pinterest:"
+msgstr ""
+
+#: includes/library/widgets.php:474
+msgid "Dribbble:"
+msgstr ""
+
+#: includes/library/widgets.php:478
+msgid "RSS Feed:"
+msgstr ""
+
+#: includes/library/widgets.php:490
+msgid "Realtor Subscribe to Mailing List"
+msgstr ""
+
+#: includes/library/widgets.php:490
+msgid "create account on http://feedburner.com and allow users to subscribe"
+msgstr ""
+
+#: includes/library/widgets.php:509
+msgid "E-mail Address"
+msgstr ""
+
+#: includes/library/widgets.php:512
+msgid " Subscribe"
+msgstr ""
+
+#: includes/library/widgets.php:538
+msgid "Subscribe to Our Mailing List"
+msgstr ""
+
+#: includes/library/widgets.php:549
+msgid "Feedburner ID:"
+msgstr ""
+
+#: includes/library/widgets.php:561
+msgid "Realtor Tweets"
+msgstr ""
+
+#: includes/library/widgets.php:561
+msgid "Grab the latest tweets from twitter"
+msgstr ""
+
+#: includes/library/widgets.php:601
+msgid "Recent Tweets"
+msgstr ""
+
+#: includes/library/widgets.php:610
+msgid "Twitter ID:"
+msgstr ""
+
+#: includes/library/widgets.php:614
+msgid "Number of Tweets:"
+msgstr ""
+
+#: includes/library/widgets.php:628
+msgid "Realtor contact info"
+msgstr ""
+
+#: includes/library/widgets.php:628
+msgid "Contact info"
+msgstr ""
+
+#: includes/library/widgets.php:672
+msgid "Contact"
+msgstr ""
+
+#: includes/library/widgets.php:686
+msgid "Address:"
+msgstr ""
+
+#: includes/library/widgets.php:691
+msgid "Phone:"
+msgstr ""
+
+#: includes/library/widgets.php:696
+msgid "Fax:"
+msgstr ""
+
+#: includes/library/widgets.php:701
+msgid "Email:"
+msgstr ""
+
+#: includes/loader.php:164 includes/loader.php:165
+msgid "Theme Options"
+msgstr ""
+
+#: includes/loader.php:168
+msgid "Facebook"
+msgstr ""
+
+#: includes/loader.php:168
+msgid "Twitter"
+msgstr ""
+
+#: includes/loader.php:168
+msgid "Dribble"
+msgstr ""
+
+#: includes/loader.php:168
+msgid "Github"
+msgstr ""
+
+#: includes/loader.php:169
+msgid "Flickr"
+msgstr ""
+
+#: includes/loader.php:169
+msgid "Google+"
+msgstr ""
+
+#: includes/loader.php:169
+msgid "Youtube"
+msgstr ""
+
+#: includes/modules/header/header-style2.php:51
+msgid "My Account"
+msgstr ""
+
+#: includes/modules/header/header-style2.php:54
+msgid "Checkout"
+msgstr ""
+
+#: includes/modules/header/header-style2.php:74
+#: includes/modules/shortcodes/search.php:108 searchform.php:5
+msgid "Search"
+msgstr ""
+
+#: includes/modules/shortcodes/blog.php:31
+msgid "By "
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:18
+msgid "your name *"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:23
+msgid "your e-mail *"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:28
+msgid "Phone *"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:33
+msgid "Subject"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:38
+msgid "message"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_form.php:44
+msgid "Send message"
+msgstr ""
+
+#: includes/modules/shortcodes/contact_info.php:17
+msgid "Tel  :  "
+msgstr ""
+
+#: includes/modules/shortcodes/contact_info.php:18
+msgid "fax  :  "
+msgstr ""
+
+#: includes/modules/shortcodes/login_form.php:13
+msgid "Username"
+msgstr ""
+
+#: includes/modules/shortcodes/login_form.php:18
+#: includes/modules/shortcodes/register_form.php:22
+msgid "password"
+msgstr ""
+
+#: includes/modules/shortcodes/login_form.php:23
+msgid "LOGIN"
+msgstr ""
+
+#: includes/modules/shortcodes/login_form.php:24
+msgid "Forgot Password?"
+msgstr ""
+
+#: includes/modules/shortcodes/login_form.php:30
+#: includes/modules/shortcodes/register_form.php:38
+msgid "Logout"
+msgstr ""
+
+#: includes/modules/shortcodes/property1.php:41
+msgid "For "
+msgstr ""
+
+#: includes/modules/shortcodes/register_form.php:12
+msgid "YOUR NAME"
+msgstr ""
+
+#: includes/modules/shortcodes/register_form.php:27
+msgid "Signup"
+msgstr ""
+
+#: includes/modules/shortcodes/register_form.php:31
+msgid "I Agree with terms & Conditions"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:19
+msgid "Choose The City"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:66
+#: includes/modules/shortcodes/search.php:83
+msgid "6"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:67
+#: includes/modules/shortcodes/search.php:84
+msgid "7"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:68
+#: includes/modules/shortcodes/search.php:85
+msgid "8"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:69
+#: includes/modules/shortcodes/search.php:86
+msgid "9"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:70
+#: includes/modules/shortcodes/search.php:87
+msgid "10"
+msgstr ""
+
+#: includes/modules/shortcodes/search.php:96
+msgid "Pricing Range: "
+msgstr ""
+
+#: includes/modules/shortcodes/services.php:37
+msgid "Read more "
+msgstr ""
+
+#: includes/modules/topbar.php:35
+msgid "Login / Register"
+msgstr ""
+
+#: includes/modules/topbar.php:45
+#, php-format
+msgid "%d item "
+msgstr ""
+
+#: includes/modules/wc_cart.php:32
+msgid "Remove this item"
+msgstr ""
+
+#: includes/modules/wc_cart.php:44
+msgid "Sub-Total:"
+msgstr ""
+
+#: includes/modules/wc_cart.php:52
+msgid "Total:"
+msgstr ""
+
+#: includes/modules/wc_cart.php:59
+msgid "CHECKOUT"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:262
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:115
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:263
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:117
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:264
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:119
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:265
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:276
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:143
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:277
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:278
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2185
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:145
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:279
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1822
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:280
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:281
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:601
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2421
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:630
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:697
+msgid ""
+"The remote plugin package is does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:697
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:701
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:701
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:819
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1818
+msgid "and"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1453
+msgid "External Source"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1457
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1462
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1466
+msgid "Required"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1468
+msgid "Recommended"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1472
+msgid "Not Installed"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1474
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1624
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1640
+msgid "Plugin"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1641
+msgid "Source"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1642
+msgid "Type"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1643
+msgid "Status"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1661
+msgid "Install"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1662
+msgid "Activate"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1714
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:1805
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2168
+msgid "Install package not available."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2169
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2170
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2171
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2172
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2173
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2184
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2307
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2308
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2312
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2313
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2313
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2320
+msgid "Show Details"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2313
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2320
+msgid "Hide Details"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2314
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2315
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2319
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2320
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2321
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/class-tgm-plugin-activation.php:2322
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:121
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/thirdparty/tgm-plugin-activation/plugins.php:147
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: includes/vc_map.php:6
+msgid "bbPress Forums"
+msgstr ""
+
+#: includes/vc_map.php:9
+msgid "Jollyall"
+msgstr ""
+
+#: includes/vc_map.php:16
+msgid "Forum"
+msgstr ""
+
+#: includes/vc_map.php:179
+msgid "Container"
+msgstr ""
+
+#: includes/vc_map.php:182
+msgid "Choose whether you want to add a container before row or not."
+msgstr ""
+
+#: searches-sh_property.php:74
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: searches.php:36
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: sidebar.php:8
+msgid "by : "
+msgstr ""
+
+#: sidebar.php:9
+msgid "in : "
+msgstr ""
+
+#: single-sh_portfolio.php:208
+msgid "Description"
+msgstr ""
+
+#: single-sh_portfolio.php:234
+msgid "Whats New?"
+msgstr ""
+
+#: single-sh_portfolio.php:306
+msgid "Project Details"
+msgstr ""
+
+#: single-sh_projects.php:116
+msgid "OPEN PROJECT"
+msgstr ""
+
+#: single-sh_property.php:96
+msgid "Print This Details"
+msgstr ""
+
+#: single-sh_property.php:118
+msgid "Property Details"
+msgstr ""
+
+#: single-sh_property.php:127
+msgid "Address "
+msgstr ""
+
+#: single-sh_property.php:128
+msgid "ZIP "
+msgstr ""
+
+#: single-sh_property.php:132
+msgid "City "
+msgstr ""
+
+#: single-sh_property.php:133
+msgid "counrty "
+msgstr ""
+
+#: single-sh_property.php:136
+msgid " Area "
+msgstr ""
+
+#: single-sh_property.php:150
+msgid "Property features"
+msgstr ""
+
+#: single-sh_property.php:177
+msgid "agent details"
+msgstr ""
+
+#: single-sh_property.php:206
+#, php-format
+msgid "Listed %s Properties"
+msgstr ""
+
+#: single-sh_property.php:216
+msgid "property location"
+msgstr ""
+
+#: single.php:73
+msgid " likes"
+msgstr ""
+
+#: single.php:73
+msgid "Viewers"
+msgstr ""
+
+#: single.php:80
+msgid "About author"
+msgstr ""
+
+#: single.php:94
+msgid "About Author"
+msgstr ""
+
+#: single.php:103
+msgid "Pages: "
+msgstr ""
+
+#: tpl-compare.php:55 tpl-wishlist.php:53
+msgid "PRODUCT"
+msgstr ""
+
+#: tpl-compare.php:56 tpl-wishlist.php:54
+msgid "PRICE"
+msgstr ""
+
+#: tpl-compare.php:57 tpl-wishlist.php:55
+msgid "ACTION"
+msgstr ""
+
+#: tpl-compare.php:58 tpl-wishlist.php:56
+msgid "DELETE"
+msgstr ""
+
+#: tpl-compare.php:76 tpl-wishlist.php:74
+msgid "Delete"
+msgstr ""
+
+#: tpl-compare.php:88 tpl-wishlist.php:86
+#, php-format
+msgid ""
+"To view this page sign in at <a href=\"%s\" title=\"Account Page\">Account "
+"Page</a>"
+msgstr ""

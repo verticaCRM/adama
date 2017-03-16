@@ -1,0 +1,201 @@
+/*
+Theme Name: Adama Child
+Author: WowTheme
+Version: 1.0
+License: ''
+License URI: ''
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, rtl-language-support, sticky-post, translation-ready, microformats
+Text Domain: wp_adama
+template: adama
+*/
+
+@import url('../adama/style.css');
+
+*{font-family:Lato;}
+
+.blog {padding:0;background-color:initial;}
+.blog .sticky {padding:0 !important;margin:0;background-color:#fff !important}
+.blog.row.m0.single_post , .contentRowPad{padding:0}
+
+header:before { background: rgba(255,255,255,0);}
+header nav .ownmenu {min-height:80px;max-height:85px}
+header .logo {margin:0;padding:0}
+ul.left-bar-side {line-height:10px;margin:0 auto}
+.logo img {width:auto;height:auto;padding-top:9px;}
+
+.sub-banner .overlay {padding-top:220px;}
+
+.sub-banner h1 {margin-bottom:220px;}
+
+.sub-banner .breadcrumb {display:block !important;}
+
+.top-bar .left-bar-side p{line-height:initial}
+.top-bar .left-bar-side input{}
+.top-bar ul li a {padding 40px 1px; text-decoration:none;}
+header nav > ul > li:hover {background:none}
+header nav li.active a {color:#1E8BCB;}
+header nav li:hover a {color:#1E8BCB;}
+header nav li {margin-top:8px;}
+
+header nav > ul > li.active, header nav > ul > li:hover {
+    background:none!important;
+}
+.all-properties, .home_featured, .wpp_row_view{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#form1 label{width:160px;display:inline-block}
+
+ul.menu {text-align:center}
+ul.menu li {display:inline-block;font-size:1.2em;padding:16px;}
+ul.menu li a {color:#fff;text-decoration:none;}
+
+.formerr {font-weight:700;color:#9a0000;padding:2px;background-color:#f9efef}
+.portfoliobutton{padding:7px;margin:0;line-height:initial;font-size:13px;border:0;color:#fff}
+
+section#content, .container{max-width:1170px;margin:0 auto;margin-top:0}
+
+.top-bar ul li a {
+    display: inline-block;
+    padding: 1px !important;
+    line-height: 40px;
+}
+
+.top-bar .left-bar-side span
+{margin:0 !important}
+
+.sub-banner .overlay {
+    background: rgba(0,0,0,0.0) !important;
+
+}
+
+    
+.sub-banner {
+    position: relative;
+    margin-top: 2px;
+    background-size: inherit !important;
+    text-align: center;
+}
+
+.sub-banner h1 {
+    display: none !important;
+}
+
+
+p {
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 24px;
+}
+p li {
+}
+
+.input-narrow {width: 85%; }
+.overview_detail{list-style-type:none !important;}
+.overview_detail::before {
+    content: "\f138";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+	padding-right:1px;
+/*--adjust as necessary--*/
+}
+
+.header{margin-top:-3px}
+.top-bar{height:42px !important;}
+#logindiv label {padding-right:2px; font-weight:400}
+#logindiv input#wp-submit.button-primary {padding:2px 10px !important;}
+
+
+.broker-badge{ border: 1px solid #067aca;
+    color: #067aca;
+    padding: 4px;
+    border-radius: 3px;
+    width: 120px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+footer .widget_text{color:#ffffff}
+
+
+
+        .dvRow {
+            width: 100%;
+            clear: both;
+            margin: auto;
+        }
+
+        .search-orange-heading {
+            color: #e99309;
+            font-size: 1.3em;
+            line-height: 1.4em;
+        }
+
+        .search-blue-heading {
+            color: #3b5998;
+            font-size: 1.3em;
+            line-height: 1.4em;
+        }
+
+        .search-sub-text {
+            color: #807e7e;
+            margin-bottom: 10px;
+        }
+
+        .search-price-blue {
+            color: #4672b2;
+            font-size: 1.3em;
+            line-height: normal;
+        }
+
+        .search-btn {
+            border-radius: 0px;
+            background-color: #C4202B !important;
+            border-color: #C4202B;
+            padding: 3px 12px;
+            font-weight:400 !important;            
+        }
+
+        .search-btn:hover {
+            border-radius: 0px;
+            background-color: #C4202B !important;
+            border-color: #C4202B;
+        }
+@media (min-width:768px) and (max-width:12000px) {
+        .search-btn-row {
+          position: relative;
+          top:-105px;
+          left:40px;
+        }
+}
+
+.portfolio_action_button {}
+.portfolio-add {padding:6px;border-radius:6px;border:1px solid ;color:#fff}
+
+.portfoliostatus {width:100%;color:#fff}
+
+
+@media(max-width:767px) {
+	.otherpage .overlay {
+		padding-top: 20px !important;
+	}
+	header nav > ul > li.active, header nav > ul > li:hover {
+		background:#f5f5f5 !important;
+	}
+}
+@media(max-width:690px) {
+	.top-bar {
+		height: auto !important;
+	}
+	.top-bar ul li a {
+		padding: 2px 0 !important;
+		line-height: 18px;
+	}
+}
